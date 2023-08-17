@@ -1,0 +1,9 @@
+{
+    "name": "Little",
+    "short_name": "L",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}

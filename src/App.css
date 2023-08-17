@@ -1,0 +1,158 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.085);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  margin-right: 20px;
+  font-size: 36px;
+}
+.sidenav .logo {
+  display: inline-flex;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.show {display: block;}
+nav {
+  cursor: default;
+  font-family: Raleway-Light!important;
+}
+.logo {
+  margin: 10px;
+  font-weight: bolder;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 10px;
+  margin: 10px;
+}
+.note {
+  flex-grow: 3;
+  width: 40%;
+  padding: 10px;
+  border: .25px solid #00000074;
+  border-radius: 8px;
+}
+.notes:last-child{
+  flex-grow: 0;
+}
+.note:hover {
+  background-color: #00000017;
+  transition: all .5s;
+}
+nav {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+nav input {
+  height: 40px;
+  border-width: .1px;
+  border-color: #00000077;
+  border-radius: 7px;
+  padding: 0 45px 0 15px;
+}
+.highlight {
+  background-color: rgba(115, 255, 0, 0.483);
+}
+a, a:hover {
+  text-decoration: none;
+  color: #666;
+  cursor: default;
+}
+.note-content {
+  margin-left: 15px!important;
+  display: grid;
+  grid-template-rows: auto 2px;
+}
+.note-content > .title {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.content {
+  margin: 0!important;
+}
+.content::selection {
+  color: rgb(0, 0, 0);
+  background-color: rgba(229, 255, 0, 0.642);
+}
+.info {
+  position: absolute;
+  bottom: 2px;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+.span {
+  padding: 15px;
+}
+.control-nav {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.note-details {
+  position: fixed!important;
+  bottom: 50%;
+  right: 10px;
+}
+.collections {
+  padding: 10px;
+}
+.collections-header, .collections-footer {
+  padding: 10px 0px 10px 10px;
+  font-weight: bold;
+}
+.collection, .collections-new {
+  padding: 10px 0px 10px 20px;
+}
+.collection:hover {
+  background-color: #00000017;
+  transition: all .5s;
+}
+
+.uk-card-body {
+  display: block!important;
+}
+
+.sidenav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
